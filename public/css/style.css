@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tvx3sx');
+  src:  url('../fonts/icomoon.eot?tvx3sx#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tvx3sx') format('truetype'),
+    url('../fonts/icomoon.woff?tvx3sx') format('woff'),
+    url('../fonts/icomoon.svg?tvx3sx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-works_header:before {
+  content: "\e900";
+}
+.icon-telegram_logo:before {
+  content: "\e901";
+}
+.icon-skype_n:before {
+  content: "\e902";
+}
+.icon-skype:before {
+  content: "\e903";
+}
+.icon-portfolio_header:before {
+  content: "\e904";
+}
+.icon-portf_arrow_up:before {
+  content: "\e905";
+}
+.icon-portf_arrow_down:before {
+  content: "\e906";
+}
+.icon-phone2:before {
+  content: "\e907";
+}
+.icon-login:before {
+  content: "\e908";
+}
+.icon-phone:before {
+  content: "\e909";
+}
+.icon-link:before {
+  content: "\e90a";
+}
+.icon-in:before {
+  content: "\e90b";
+}
+.icon-hamburger:before {
+  content: "\e90c";
+}
+.icon-vk_round:before {
+  content: "\e90d";
+}
+.icon-in_round:before {
+  content: "\e90e";
+}
+.icon-github_round:before {
+  content: "\e90f";
+}
+.icon-map_marker:before {
+  content: "\e910";
+}
+.icon-github:before {
+  content: "\e911";
+}
+.icon-phone_n:before {
+  content: "\e912";
+}
+.icon-map_n:before {
+  content: "\e913";
+}
+.icon-envelope_n:before {
+  content: "\e914";
+}
+.icon-vk:before {
+  content: "\e915";
+}
+.icon-envelope:before {
+  content: "\e916";
+}
+.icon-check:before {
+  content: "\e917";
+}
+.icon-blog_header:before {
+  content: "\e918";
+}
+.icon-about_header:before {
+  content: "\e919";
+}
+.icon-password:before {
+  content: "\e91a";
+}
+.icon-envelope2:before {
+  content: "\e91b";
+}
+.icon-arrow_down:before {
+  content: "\e91c";
+}

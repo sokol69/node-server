@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Главная страница</title>
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/about.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="loader__area">
+      <div class="round1 anti"></div>
+      <div id="loader__text">0%</div>
+    </div>
+    <div id="window-modal">
+      <div id="window-modal__close-btn">+</div>
+      <ul id="window-modal__list">
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="works.html">МОИ РАБОТЫ</a>
+          <div class="rectangle-white"></div>
+        </li>
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="about.html">ОБО МНЕ</a>
+          <div class="rectangle-white"></div>
+        </li>
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="blog.html">БЛОГ</a>
+          <div class="rectangle-white"></div>
+        </li>
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="index.html">НА ГЛАВНУЮ</a>
+          <div class="rectangle-white"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <section class="section hero">
+          <div class="hero__sec"><img class="hero__sec-img" src="images/about_header_white.svg" alt="title"></div>
+          <header class="head">
+            <ul class="socials">
+              <li class="socials__item"><a class="socials__link" href="https://vk.com/dima33333"><span class="icon-vk icon"></span></a></li>
+              <li class="socials__item"><a class="socials__link" href="https://github.com/sokol69"><span class="icon-github icon"></span></a></li>
+              <li class="socials__item"><a class="socials__link" href="#"><span class="icon-in icon"></span></a></li>
+            </ul>
+            <div class="head__menu"><span class="icon-hamburger icon" id="hamburger-menu"></span></div>
+          </header>
+          <div class="hero__title">
+            <div class="section-title"><img class="section-title__pic" src="images/ava_small.jpg" alt="Аватарка"></div>
+            <div class="hero__user user">
+              <h2 class="user__name">Дмитрий Соколов</h2>
+              <div class="user__data">Личный сайт веб-разработчика</div>
+            </div>
+          </div>
+          <div class="hero__arrow arrow-down" id="arrow-down"><a href="#about"><span class="icon-arrow_down icon"></span></a></div>
+        </section>
+        <section class="section about" id="about">
+          <div class="triangle-box">
+            <svg class="triangles" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 85" preserveaspectratio="none">
+              <polygon class="triangle__left" points="0,0 0,86 500.8,86 500.8,75.5"></polygon>
+              <polygon class="triangle__right" points="1000,0 1000,86 500,86 500,75.5"></polygon>
+            </svg>
+          </div>
+          <div class="about__wrap">
+            <div class="about__left">
+              <div class="about__title_wrap title-rectangle__wrap">
+                <div class="rectangle"></div>
+                <div class="about__left_title title">Обо мне</div>
+                <div class="rectangle"></div>
+              </div>
+              <div class="user-desc"><img class="user-desc__image" src="images/ava_altay.jpg" alt="Аватарка">
+                <div class="title-rectangle__wrap">
+                  <div class="rectangle"></div>
+                  <div class="user-desc__title subtitle">Кто я</div>
+                  <div class="rectangle"></div>
+                </div>
+                <div class="text-block user-desc__text">
+                  <p>Меня зовут Дмитрий. Я живу в городе под названием Тверь. Последний год серьёзно увлекаюсь веб-программированием. Данная область меня привлекла своей обширностью и динамичным темпом развития.</p>
+                  <p>Моя главная цель на сегодняшний день - получить должность Junior Web Developer'а. Это позволит мне не только более интенсивно развиваться, но и зарабатывать на том, что мне действительно нравится!</p>
+                </div>
+              </div>
+            </div>
+            <div class="about__right">
+              <div class="title-rectangle__wrap">
+                <div class="rectangle"></div>
+                <div class="about__right-title subtitle">Чем я могу быть <br> вам полезен</div>
+                <div class="rectangle"></div>
+              </div>
+              <div class="text-block about__right-desc">
+                <p>Больше всего меня привлекет Frontend разработка, также я знаком и могу решать не сложные задачи на Backend. Но давайте по порядку. </p>
+              </div>
+              <div class="about__right-content">
+                <ul class="skills-list">
+                  <li class="skills-list__item">Frontend
+                    <ul class="skills-row__list">
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-90" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">HTML</span>
+                      </li>
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-90" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">CSS</span>
+                      </li>
+                      <li class="skills-row__item js">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-80" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">JS</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="skills-list__item">Backend
+                    <ul class="skills-row__list">
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-15" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">PHP</span>
+                      </li>
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-15" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">MySQL</span>
+                      </li>
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-30" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">Node.js<br>& npm</span>
+                      </li>
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-10" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">Mongo.db</span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="skills-list__item">Workflow
+                    <ul class="skills-row__list">
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-40" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">Git</span>
+                      </li>
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-40" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">Gulp</span>
+                      </li>
+                      <li class="skills-row__item">
+                        <svg class="circles" viewbox="0 0 110 110">
+                          <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                          <circle class="circle__second circle-50" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                        </svg><span class="circles__title">Webpack</span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section map">
+          <div class="google-map" id="map"></div>
+          <div class="contacts">
+            <div class="contacts__title title-rectangle__wrap">
+              <div class="rectangle"></div>
+              <div class="subtitle" id="contact-title">Контакты</div>
+              <div class="rectangle"></div>
+            </div>
+            <ul class="contacts__list">
+              <li class="contacts__item"><span class="icon-skype icon-contact icon-small"></span><span>sokolov3369</span></li>
+              <li class="contacts__item"><span class="icon-envelope icon-contact"></span><span>sokolov333d@gmail.com</span></li>
+              <li class="contacts__item"><span class="icon-phone icon-contact"></span><span>+7 920 180 9445</span></li>
+              <li class="contacts__item"><span class="icon-map_marker icon-contact icon-small"></span><span>г.Тверь, Заволжский р-н</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__top_left">
+            <nav class="footer__nav">
+              <ul class="footer__nav_list">
+                <li class="footer__nav_list_item"><a class="nav__list_link" href="works.html">Мои работы</a></li>
+                <li class="footer__nav_list_item"><a class="nav__list_link" href="about.html">Обо мне</a></li>
+                <li class="footer__nav_list_item"><a class="nav__list_link" href="blog.html">Блог</a></li>
+                <li class="footer__nav_list_item"><a class="nav__list_link" href="index.html">На главную</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__top_right">
+            <div class="footer__social">
+              <ul class="footer__social_list">
+                <li class="footer__social_list_item"><a class="footer__social_link" href="https://vk.com/dima33333"><span class="icon-vk_round icon-round"></span></a></li>
+                <li class="footer__social_list_item"><a class="footer__social_link" href="https://github.com/sokol69"><span class="icon-github_round icon-round"></span></a></li>
+                <li class="footer__social_list_item"><a class="footer__social_link" href="#"><span class="icon-in_round icon-round"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom_left">Я веб-разработчик из Твери и этот сайт я делал в рамках обучения в Школе онлайн образования LoftSchool</div>
+          <div class="footer__bottom_right">&copy;Соколов Дмитрий | создано с любовью в loftschool | 2017</div>
+        </div>
+      </footer>
+    </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwSwQU5NeTimEUyAEr0kfZ2rJGF8cTS1M"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/about.js"></script>
+  <script src="./js/map.js"></script>
+</body>
+</html>

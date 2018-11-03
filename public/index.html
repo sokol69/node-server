@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Добро пожаловать!</title>
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+  <body>
+    <div id="loader__area">
+      <div class="round1 anti"></div>
+      <div id="loader__text">0%</div>
+    </div>
+    <div id="window-modal">
+      <div id="window-modal__close-btn">+</div>
+      <ul id="window-modal__list">
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="works.html">МОИ РАБОТЫ</a>
+          <div class="rectangle-white"></div>
+        </li>
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="about.html">ОБО МНЕ</a>
+          <div class="rectangle-white"></div>
+        </li>
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="blog.html">БЛОГ</a>
+          <div class="rectangle-white"></div>
+        </li>
+        <li class="window-modal__item">
+          <div class="rectangle-white"></div><a class="window-modal__link" href="index.html">НА ГЛАВНУЮ</a>
+          <div class="rectangle-white"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div id="parallax">
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-1-2000.png" alt="layer-1"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-2-2000.png" alt="layer-2"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-3-2000.png" alt="layer-3"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-4-2000.png" alt="layer-4"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-5-2000.png" alt="layer-5"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-6-2000.png" alt="layer-6"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-7-2000.png" alt="layer-7"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-8-2000.png" alt="layer-8"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-9-2000.png" alt="layer-9"></div>
+        <div class="parallax__layer"><img class="parallax__image" src="images/layer-10-2000.png" alt="layer-10"></div>
+      </div>
+      <header class="header">
+        <div id="singin__box">
+          <a href="javascript:void(0);" class="singin">Авторизоваться</a>
+        </div>
+      </header>
+      <section class="content">
+        <div class="flip-container">
+          <div id="flipper">
+            <div class="front welcome">
+              <div class="welcome__img"><img class="welcome__img_ava" src="images/ava_small.jpg" alt="avatar"></div>
+              <div class="welcome__text">
+                <h2 class="welcome__title">Дмитрий Соколов</h2>
+                <div class="welcome__title_small">Личный сайт веб-разработчика</div>
+              </div>
+              <div class="welcome__socials"><span class="welcome__socials_icon"><a href="https://vk.com/dima33333"><span class="icon-vk icon"></span></a></span><span class="welcome__socials_icon"><a href="https://github.com/sokol69"><span class="icon-github icon"></span></a></span><span class="welcome__socials_icon"><a href="#"><span class="icon-in icon"></span></a></span></div>
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__list_item item_m"><a class="nav__list_link" href="works.html">Мои работы</a></li>
+                  <li class="nav__list_item item_m"><a class="nav__list_link" href="about.html">Обо мне</a></li>
+                  <li class="nav__list_item"><a class="nav__list_link" href="blog.html">Блог</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="back">
+              <div class="title-rectangle__wrap">
+                <div class="rectangle"></div>
+                <div class="back__title subtitle">Авторизируйтесь</div>
+                <div class="rectangle"> </div>
+              </div>
+              <form class="back-input__wrap" action="#" method="POST">
+                <div class="input-container">
+                  <div class="input-icon__wrap"><span class="icon-login input__icon"></span></div>
+                  <input class="back__input" id="login" type="text" placeholder="Логин">
+                </div>
+                <div class="input-container">
+                  <div class="input-icon__wrap"><span class="icon-password input__icon"></span></div>
+                  <input class="back__input" id="password" type="password" placeholder="Пароль">
+                </div>
+                <div class="test-human__wrap">
+                  <input id="test-human" type="checkbox">
+                  <label class="test-human__text" for="test-human">Я человек</label>
+                </div>
+                <div class="test-question">Вы точно не робот?</div>
+                <div class="test-robot__wrap">
+                  <input class="test-robot" id="yes" type="radio" name="question">
+                  <label class="test-robot__text text-yes" for="yes">Да</label>
+                  <input class="test-robot" id="no" type="radio" name="question">
+                  <label class="test-robot__text text-no" for="no">Не уверен</label>
+                </div>
+              </form>
+              <ul class="nav__list back__nav">
+                <li class="nav__list_item item_m back__btn" id="btn-return"><a class="nav__list_link" href="#">На главную</a></li>
+                <li class="nav__list_item back__btn" id="btn-enter"><a class="nav__list_link" href="admin-vue.html">Войти</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__text">&copy;Соколов Дмитрий | создано с любовью в loftschool | 2017</div>
+      </footer>
+    </div>
+  <script type="text/javascript" src="./js/common.js"></script><script type="text/javascript" src="./js/index.js"></script></body>
+</html>
